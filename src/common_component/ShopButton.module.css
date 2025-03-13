@@ -1,0 +1,26 @@
+.btn {
+  width: 80px;
+  padding: 4px 16px;
+  font-size: 0.7rem;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.3s;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(0, 95, 0);
+}
+
+.small {
+  width: 80px;
+}
+.normal {
+  width: 100px;
+}
+.large {
+  width: 100%;
+}

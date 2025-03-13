@@ -1,0 +1,27 @@
+.joinMainContainer {
+  display: flex;
+  border: 1px solid black;
+}
+.joinLeftCon {
+  width: 20%;
+  text-align: right;
+  padding: 10px;
+}
+.joinRightCon {
+  width: 80%;
+  padding: 10px;
+}
+.joinRightCon > div,
+.joinLeftCon > div {
+  margin-top: 10px;
+}
+
+.joinRightCon > div:last-child,
+.joinLeftCon > div:last-child {
+  margin-bottom: 10px;
+}
+
+.redText {
+  color: red;
+  font-size: 0.8rem;
+}

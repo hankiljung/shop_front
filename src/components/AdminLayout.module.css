@@ -1,0 +1,24 @@
+.admin_container {
+  width: 100%;
+}
+
+.admin_body {
+  display: flex;
+}
+.admin_body > img {
+  width: 100%;
+}
+
+.side_div {
+  width: 20%;
+  border: 1px solid black;
+}
+
+.content_div {
+  width: 80%;
+  border: 1px solid black;
+}
+.error {
+  font-size: 0.8rem;
+  color: red;
+}
